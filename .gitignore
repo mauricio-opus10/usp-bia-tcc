@@ -156,10 +156,10 @@ credentials.json
 *.key
 secrets/
 
-# AI tools
-CLAUDE.md
+# Local config
 .claude/
 .serena/
+CLAUDE.md
 
 # Documents (Word, Excel, PowerPoint, PDF)
 *.docx
