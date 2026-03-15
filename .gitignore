@@ -156,11 +156,6 @@ credentials.json
 *.key
 secrets/
 
-# Local config
-.claude/
-.serena/
-CLAUDE.md
-
 # Documents (Word, Excel, PowerPoint, PDF)
 *.docx
 *.xlsx
