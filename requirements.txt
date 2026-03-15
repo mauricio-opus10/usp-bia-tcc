@@ -1,0 +1,43 @@
+# TCC Redes e Guerras Mundiais - Dependências Python
+# Instalar com: pip install -r requirements.txt
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0        # Para ler arquivos Excel
+
+# Network analysis
+networkx>=3.1
+python-igraph>=0.11.0
+python-louvain>=0.16   # Detecção de comunidades (community)
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+pyvis>=0.3.2           # Visualizações interativas de redes
+
+# Database
+sqlalchemy>=2.0.0
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+
+# Statistics
+scipy>=1.11.0
+statsmodels>=0.14.0
+
+# Utilities
+tqdm>=4.65.0           # Progress bars
+python-dotenv>=1.0.0   # Environment variables
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
