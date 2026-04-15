@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-07">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="7" title="years_active" type="float" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="degree_centrality" type="double" />
+      <attribute id="2" title="betweenness_centrality" type="double" />
+      <attribute id="3" title="closeness_centrality" type="double" />
+      <attribute id="4" title="eigenvector_centrality" type="double" />
+      <attribute id="5" title="degree" type="long" />
+      <attribute id="6" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="2.0" label="2.0">
+        <attvalues>
+          <attvalue for="0" value="USA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="140.0" label="140.0">
+        <attvalues>
+          <attvalue for="0" value="BRA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="200.0" label="200.0">
+        <attvalues>
+          <attvalue for="0" value="UKG" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="211.0" label="211.0">
+        <attvalues>
+          <attvalue for="0" value="BEL" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="220.0" label="220.0">
+        <attvalues>
+          <attvalue for="0" value="FRN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="230.0" label="230.0">
+        <attvalues>
+          <attvalue for="0" value="SPN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="255.0" label="255.0">
+        <attvalues>
+          <attvalue for="0" value="GMY" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="290.0" label="290.0">
+        <attvalues>
+          <attvalue for="0" value="POL" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="315.0" label="315.0">
+        <attvalues>
+          <attvalue for="0" value="CZE" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="325.0" label="325.0">
+        <attvalues>
+          <attvalue for="0" value="ITA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="365.0" label="365.0">
+        <attvalues>
+          <attvalue for="0" value="RUS" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="710.0" label="710.0">
+        <attvalues>
+          <attvalue for="0" value="CHN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="740.0" label="740.0">
+        <attvalues>
+          <attvalue for="0" value="JPN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.27735" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="2.0" target="140.0" id="0" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="200.0" id="1" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="211.0" id="2" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="220.0" id="3" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="230.0" id="4" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="255.0" id="5" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="290.0" id="6" weight="2.6666666666666665">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="315.0" id="7" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="325.0" id="8" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="365.0" id="9" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="710.0" id="10" weight="2.3333333333333335">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="2.0" target="740.0" id="11" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="200.0" id="12" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="211.0" id="13" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="220.0" id="14" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="230.0" id="15" weight="2.3333333333333335">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="255.0" id="16" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="290.0" id="17" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="315.0" id="18" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="325.0" id="19" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="365.0" id="20" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="710.0" id="21" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="140.0" target="740.0" id="22" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="211.0" id="23" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="220.0" id="24" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="230.0" id="25" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="255.0" id="26" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="290.0" id="27" weight="2.6666666666666665">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="315.0" id="28" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="325.0" id="29" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="365.0" id="30" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="710.0" id="31" weight="2.3333333333333335">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="200.0" target="740.0" id="32" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="220.0" id="33" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="230.0" id="34" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="255.0" id="35" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="290.0" id="36" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="315.0" id="37" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="325.0" id="38" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="365.0" id="39" weight="1.0">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="710.0" id="40" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="211.0" target="740.0" id="41" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="230.0" id="42" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="255.0" id="43" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="290.0" id="44" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="315.0" id="45" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="325.0" id="46" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="365.0" id="47" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="710.0" id="48" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="220.0" target="740.0" id="49" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="255.0" id="50" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="290.0" id="51" weight="2.3333333333333335">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="315.0" id="52" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="325.0" id="53" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="365.0" id="54" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="710.0" id="55" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="230.0" target="740.0" id="56" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="255.0" target="290.0" id="57" weight="2.3333333333333335">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="255.0" target="315.0" id="58" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="255.0" target="325.0" id="59" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="255.0" target="365.0" id="60" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="255.0" target="710.0" id="61" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="255.0" target="740.0" id="62" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="290.0" target="315.0" id="63" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="290.0" target="325.0" id="64" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="290.0" target="365.0" id="65" weight="2.6666666666666665">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="290.0" target="710.0" id="66" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge source="290.0" target="740.0" id="67" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="315.0" target="325.0" id="68" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="315.0" target="365.0" id="69" weight="1.6666666666666667">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="315.0" target="710.0" id="70" weight="1.5">
+        <attvalues>
+          <attvalue for="7" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="315.0" target="740.0" id="71" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="325.0" target="365.0" id="72" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="325.0" target="710.0" id="73" weight="2.3333333333333335">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="325.0" target="740.0" id="74" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="365.0" target="710.0" id="75" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="365.0" target="740.0" id="76" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="710.0" target="740.0" id="77" weight="2.0">
+        <attvalues>
+          <attvalue for="7" value="3.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

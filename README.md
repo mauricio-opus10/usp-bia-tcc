@@ -16,7 +16,9 @@
 >
 > 👉 **Pasta completa dos apêndices:** [`apendices/`](apendices/) — inclui versões CSV machine-readable e [README explicativo](apendices/README.md).
 >
-> Pipeline e dados brutos para reprodução em [`data/output/comparison/`](data/output/comparison/) e [`src/network/metrics.py`](src/network/metrics.py).
+> 🌐 **Redes prontas para o Gephi:** [`gephi/redes/`](gephi/redes/) — 10 arquivos GEXF (4 camadas × 2 períodos + 2 multilayer), com contagens validadas contra a Tabela B.9 do Apêndice B.
+>
+> Pipeline em [`src/network/metrics.py`](src/network/metrics.py); regenere os outputs com `run_pipeline_comparison.py`.
 
 ---
 
@@ -84,7 +86,8 @@ usp-bia-tcc/
 ├── sql/                             # Queries SQL auxiliares
 ├── tests/                           # Testes unitários
 ├── reports/                         # Relatórios e entregas
-├── gephi/                           # Projetos Gephi (.gephi)
+├── gephi/                           # Redes em formato GEXF (10 arquivos prontos para o Gephi)
+│   └── redes/                       # 4 camadas × 2 períodos + 2 multilayer
 │
 └── data/                            # ⚠️ Conteúdo NÃO versionado — regenerável pela pipeline
     ├── raw/                         # Dados brutos COW/ATOP/Maddison (obter da fonte)

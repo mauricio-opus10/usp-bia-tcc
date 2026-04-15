@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-07">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="degree_centrality" type="double" />
+      <attribute id="2" title="betweenness_centrality" type="double" />
+      <attribute id="3" title="closeness_centrality" type="double" />
+      <attribute id="4" title="eigenvector_centrality" type="double" />
+      <attribute id="5" title="degree" type="long" />
+      <attribute id="6" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="2" label="2">
+        <attvalues>
+          <attvalue for="0" value="USA" />
+          <attvalue for="1" value="0.727273" />
+          <attvalue for="2" value="0.186111" />
+          <attvalue for="3" value="0.785714" />
+          <attvalue for="4" value="0.307535" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="200" label="200">
+        <attvalues>
+          <attvalue for="0" value="UKG" />
+          <attvalue for="1" value="0.727273" />
+          <attvalue for="2" value="0.018232" />
+          <attvalue for="3" value="0.785714" />
+          <attvalue for="4" value="0.332083" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="220" label="220">
+        <attvalues>
+          <attvalue for="0" value="FRN" />
+          <attvalue for="1" value="0.727273" />
+          <attvalue for="2" value="0.018232" />
+          <attvalue for="3" value="0.785714" />
+          <attvalue for="4" value="0.332083" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="230" label="230">
+        <attvalues>
+          <attvalue for="0" value="SPN" />
+          <attvalue for="1" value="0.090909" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.458333" />
+          <attvalue for="4" value="0.04035" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="255" label="255">
+        <attvalues>
+          <attvalue for="0" value="GMY" />
+          <attvalue for="1" value="0.818182" />
+          <attvalue for="2" value="0.081667" />
+          <attvalue for="3" value="0.846154" />
+          <attvalue for="4" value="0.337595" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="300" label="300">
+        <attvalues>
+          <attvalue for="0" value="AUH" />
+          <attvalue for="1" value="0.818182" />
+          <attvalue for="2" value="0.081667" />
+          <attvalue for="3" value="0.846154" />
+          <attvalue for="4" value="0.337595" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="325" label="325">
+        <attvalues>
+          <attvalue for="0" value="ITA" />
+          <attvalue for="1" value="0.636364" />
+          <attvalue for="2" value="0.004293" />
+          <attvalue for="3" value="0.733333" />
+          <attvalue for="4" value="0.302855" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="640" label="640">
+        <attvalues>
+          <attvalue for="0" value="TUR" />
+          <attvalue for="1" value="0.818182" />
+          <attvalue for="2" value="0.072323" />
+          <attvalue for="3" value="0.846154" />
+          <attvalue for="4" value="0.339411" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="710" label="710">
+        <attvalues>
+          <attvalue for="0" value="CHN" />
+          <attvalue for="1" value="0.727273" />
+          <attvalue for="2" value="0.029899" />
+          <attvalue for="3" value="0.785714" />
+          <attvalue for="4" value="0.321944" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="365" label="365">
+        <attvalues>
+          <attvalue for="0" value="RUS" />
+          <attvalue for="1" value="0.545455" />
+          <attvalue for="2" value="0.007323" />
+          <attvalue for="3" value="0.647059" />
+          <attvalue for="4" value="0.251997" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="211" label="211">
+        <attvalues>
+          <attvalue for="0" value="BEL" />
+          <attvalue for="1" value="0.272727" />
+          <attvalue for="2" value="0.00202" />
+          <attvalue for="3" value="0.55" />
+          <attvalue for="4" value="0.133121" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="740" label="740">
+        <attvalues>
+          <attvalue for="0" value="JPN" />
+          <attvalue for="1" value="0.545455" />
+          <attvalue for="2" value="0.007323" />
+          <attvalue for="3" value="0.647059" />
+          <attvalue for="4" value="0.251997" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="2" target="200" id="0" weight="3" />
+      <edge source="2" target="220" id="1" weight="1" />
+      <edge source="2" target="230" id="2" weight="2" />
+      <edge source="2" target="255" id="3" weight="2" />
+      <edge source="2" target="300" id="4" weight="1" />
+      <edge source="2" target="325" id="5" weight="1" />
+      <edge source="2" target="640" id="6" weight="1" />
+      <edge source="2" target="710" id="7" weight="2" />
+      <edge source="200" target="220" id="8" weight="4" />
+      <edge source="200" target="255" id="9" weight="3" />
+      <edge source="200" target="300" id="10" weight="1" />
+      <edge source="200" target="325" id="11" weight="2" />
+      <edge source="200" target="365" id="12" weight="2" />
+      <edge source="200" target="640" id="13" weight="6" />
+      <edge source="200" target="710" id="14" weight="2" />
+      <edge source="220" target="255" id="15" weight="2" />
+      <edge source="220" target="300" id="16" weight="1" />
+      <edge source="220" target="325" id="17" weight="2" />
+      <edge source="220" target="640" id="18" weight="4" />
+      <edge source="220" target="710" id="19" weight="2" />
+      <edge source="220" target="740" id="20" weight="1" />
+      <edge source="255" target="211" id="21" weight="1" />
+      <edge source="255" target="325" id="22" weight="2" />
+      <edge source="255" target="365" id="23" weight="1" />
+      <edge source="255" target="640" id="24" weight="1" />
+      <edge source="255" target="710" id="25" weight="2" />
+      <edge source="255" target="740" id="26" weight="2" />
+      <edge source="300" target="211" id="27" weight="1" />
+      <edge source="300" target="325" id="28" weight="4" />
+      <edge source="300" target="365" id="29" weight="2" />
+      <edge source="300" target="640" id="30" weight="2" />
+      <edge source="300" target="710" id="31" weight="1" />
+      <edge source="300" target="740" id="32" weight="1" />
+      <edge source="325" target="640" id="33" weight="8" />
+      <edge source="325" target="710" id="34" weight="2" />
+      <edge source="640" target="211" id="35" weight="1" />
+      <edge source="640" target="365" id="36" weight="6" />
+      <edge source="640" target="740" id="37" weight="1" />
+      <edge source="710" target="365" id="38" weight="9" />
+      <edge source="710" target="740" id="39" weight="5" />
+      <edge source="365" target="740" id="40" weight="4" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-07">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="degree_centrality" type="double" />
+      <attribute id="2" title="betweenness_centrality" type="double" />
+      <attribute id="3" title="closeness_centrality" type="double" />
+      <attribute id="4" title="eigenvector_centrality" type="double" />
+      <attribute id="5" title="degree" type="long" />
+      <attribute id="6" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="2.0" label="2.0">
+        <attvalues>
+          <attvalue for="0" value="USA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="140.0" label="140.0">
+        <attvalues>
+          <attvalue for="0" value="BRA" />
+          <attvalue for="1" value="0.916667" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.923077" />
+          <attvalue for="4" value="0.260132" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="200.0" label="200.0">
+        <attvalues>
+          <attvalue for="0" value="UKG" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="211.0" label="211.0">
+        <attvalues>
+          <attvalue for="0" value="BEL" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="220.0" label="220.0">
+        <attvalues>
+          <attvalue for="0" value="FRN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="230.0" label="230.0">
+        <attvalues>
+          <attvalue for="0" value="SPN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="255.0" label="255.0">
+        <attvalues>
+          <attvalue for="0" value="GMY" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="290.0" label="290.0">
+        <attvalues>
+          <attvalue for="0" value="POL" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="315.0" label="315.0">
+        <attvalues>
+          <attvalue for="0" value="CZE" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="325.0" label="325.0">
+        <attvalues>
+          <attvalue for="0" value="ITA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="365.0" label="365.0">
+        <attvalues>
+          <attvalue for="0" value="RUS" />
+          <attvalue for="1" value="0.916667" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.923077" />
+          <attvalue for="4" value="0.260132" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="710.0" label="710.0">
+        <attvalues>
+          <attvalue for="0" value="CHN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="740.0" label="740.0">
+        <attvalues>
+          <attvalue for="0" value="JPN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.001377" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.280367" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="2.0" target="140.0" id="0" weight="0.22462552230440475" />
+      <edge source="2.0" target="200.0" id="1" weight="1.0" />
+      <edge source="2.0" target="211.0" id="2" weight="0.12962047332360355" />
+      <edge source="2.0" target="220.0" id="3" weight="0.39612985530964" />
+      <edge source="2.0" target="230.0" id="4" weight="0.08411635038679194" />
+      <edge source="2.0" target="255.0" id="5" weight="0.5229443199424652" />
+      <edge source="2.0" target="290.0" id="6" weight="0.04738923458955474" />
+      <edge source="2.0" target="315.0" id="7" weight="0.07222409165588041" />
+      <edge source="2.0" target="325.0" id="8" weight="0.19913386018616286" />
+      <edge source="2.0" target="365.0" id="9" weight="0.09287776384456405" />
+      <edge source="2.0" target="710.0" id="10" weight="0.192301591291242" />
+      <edge source="2.0" target="740.0" id="11" weight="0.6867865695642961" />
+      <edge source="140.0" target="200.0" id="12" weight="0.09768548592312229" />
+      <edge source="140.0" target="211.0" id="13" weight="0.024742207690705897" />
+      <edge source="140.0" target="220.0" id="14" weight="0.06386273092619994" />
+      <edge source="140.0" target="230.0" id="15" weight="0.0037562344473686866" />
+      <edge source="140.0" target="255.0" id="16" weight="0.12081050901688897" />
+      <edge source="140.0" target="290.0" id="17" weight="0.0036869651451536117" />
+      <edge source="140.0" target="315.0" id="18" weight="0.007112513033874222" />
+      <edge source="140.0" target="325.0" id="19" weight="0.023337776540402397" />
+      <edge source="140.0" target="710.0" id="20" weight="0.00023506537421075278" />
+      <edge source="140.0" target="740.0" id="21" weight="0.008469701962442702" />
+      <edge source="200.0" target="211.0" id="22" weight="0.2639514343820548" />
+      <edge source="200.0" target="220.0" id="23" weight="0.46717301290407215" />
+      <edge source="200.0" target="230.0" id="24" weight="0.09363455937460155" />
+      <edge source="200.0" target="255.0" id="25" weight="0.4585974709229526" />
+      <edge source="200.0" target="290.0" id="26" weight="0.08373382431858482" />
+      <edge source="200.0" target="315.0" id="27" weight="0.06155064015829436" />
+      <edge source="200.0" target="325.0" id="28" weight="0.13695222833061652" />
+      <edge source="200.0" target="365.0" id="29" weight="0.16503122332291553" />
+      <edge source="200.0" target="710.0" id="30" weight="0.10430034849342414" />
+      <edge source="200.0" target="740.0" id="31" weight="0.10722020738982188" />
+      <edge source="211.0" target="220.0" id="32" weight="0.313664267544612" />
+      <edge source="211.0" target="230.0" id="33" weight="0.01610371704608938" />
+      <edge source="211.0" target="255.0" id="34" weight="0.1736788861053039" />
+      <edge source="211.0" target="290.0" id="35" weight="0.01882726763359297" />
+      <edge source="211.0" target="315.0" id="36" weight="0.017427423267692303" />
+      <edge source="211.0" target="325.0" id="37" weight="0.026548887875749577" />
+      <edge source="211.0" target="365.0" id="38" weight="0.0232717284411547" />
+      <edge source="211.0" target="710.0" id="39" weight="0.012793992630175917" />
+      <edge source="211.0" target="740.0" id="40" weight="0.008131666071931465" />
+      <edge source="220.0" target="230.0" id="41" weight="0.09052648073012079" />
+      <edge source="220.0" target="255.0" id="42" weight="0.3303132863232614" />
+      <edge source="220.0" target="290.0" id="43" weight="0.033127881858986304" />
+      <edge source="220.0" target="315.0" id="44" weight="0.03717945673003272" />
+      <edge source="220.0" target="325.0" id="45" weight="0.13372895247408315" />
+      <edge source="220.0" target="365.0" id="46" weight="0.04293207717308446" />
+      <edge source="220.0" target="710.0" id="47" weight="0.049917698338074405" />
+      <edge source="220.0" target="740.0" id="48" weight="0.02653509968159498" />
+      <edge source="230.0" target="255.0" id="49" weight="0.09072633643421235" />
+      <edge source="230.0" target="290.0" id="50" weight="0.0016762787763927125" />
+      <edge source="230.0" target="315.0" id="51" weight="0.0036192134001638353" />
+      <edge source="230.0" target="325.0" id="52" weight="0.02127195138888252" />
+      <edge source="230.0" target="365.0" id="53" weight="0.006590094026259471" />
+      <edge source="230.0" target="710.0" id="54" weight="0.0004680621701627618" />
+      <edge source="230.0" target="740.0" id="55" weight="0.0009342999373464047" />
+      <edge source="255.0" target="290.0" id="56" weight="0.12804093747391346" />
+      <edge source="255.0" target="315.0" id="57" weight="0.21406532504189904" />
+      <edge source="255.0" target="325.0" id="58" weight="0.26924039157121094" />
+      <edge source="255.0" target="365.0" id="59" weight="0.15230802617324132" />
+      <edge source="255.0" target="710.0" id="60" weight="0.11129530400753679" />
+      <edge source="255.0" target="740.0" id="61" weight="0.07357952208974967" />
+      <edge source="290.0" target="315.0" id="62" weight="0.04178893893430179" />
+      <edge source="290.0" target="325.0" id="63" weight="0.019907254479089937" />
+      <edge source="290.0" target="365.0" id="64" weight="0.011655376935220953" />
+      <edge source="290.0" target="710.0" id="65" weight="0.0012934910161349063" />
+      <edge source="290.0" target="740.0" id="66" weight="0.001237935965181847" />
+      <edge source="315.0" target="325.0" id="67" weight="0.027669864464586965" />
+      <edge source="315.0" target="365.0" id="68" weight="0.01426584776368862" />
+      <edge source="315.0" target="710.0" id="69" weight="0.0036055551356225595" />
+      <edge source="315.0" target="740.0" id="70" weight="0.002269014198423845" />
+      <edge source="325.0" target="365.0" id="71" weight="0.022390175439240233" />
+      <edge source="325.0" target="710.0" id="72" weight="0.010768070617848846" />
+      <edge source="325.0" target="740.0" id="73" weight="0.007286805758259863" />
+      <edge source="365.0" target="710.0" id="74" weight="0.027380446198174334" />
+      <edge source="365.0" target="740.0" id="75" weight="0.011021757474628963" />
+      <edge source="710.0" target="740.0" id="76" weight="0.25926994425389477" />
+    </edges>
+  </graph>
+</gexf>

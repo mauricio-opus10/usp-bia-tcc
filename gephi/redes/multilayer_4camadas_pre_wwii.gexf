@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-07">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="7" title="layers" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="degree_centrality" type="double" />
+      <attribute id="2" title="betweenness_centrality" type="double" />
+      <attribute id="3" title="closeness_centrality" type="double" />
+      <attribute id="4" title="eigenvector_centrality" type="double" />
+      <attribute id="5" title="degree" type="long" />
+      <attribute id="6" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="220" label="220">
+        <attvalues>
+          <attvalue for="0" value="FRN" />
+          <attvalue for="1" value="1.166667" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.294283" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="325" label="325">
+        <attvalues>
+          <attvalue for="0" value="ITA" />
+          <attvalue for="1" value="1.166667" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.294283" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="315" label="315">
+        <attvalues>
+          <attvalue for="0" value="CZE" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="290" label="290">
+        <attvalues>
+          <attvalue for="0" value="POL" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="365" label="365">
+        <attvalues>
+          <attvalue for="0" value="RUS" />
+          <attvalue for="1" value="1.166667" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.294283" />
+          <attvalue for="5" value="14" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="255" label="255">
+        <attvalues>
+          <attvalue for="0" value="GMY" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="200" label="200">
+        <attvalues>
+          <attvalue for="0" value="UKG" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="211" label="211">
+        <attvalues>
+          <attvalue for="0" value="BEL" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="740" label="740">
+        <attvalues>
+          <attvalue for="0" value="JPN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="2" label="2">
+        <attvalues>
+          <attvalue for="0" value="USA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="230" label="230">
+        <attvalues>
+          <attvalue for="0" value="SPN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="710" label="710">
+        <attvalues>
+          <attvalue for="0" value="CHN" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="140" label="140">
+        <attvalues>
+          <attvalue for="0" value="BRA" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.272065" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="220" target="325" id="0" weight="15.133728952474083">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="315" id="1" weight="6.0371794567300325">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="290" id="2" weight="8.033127881858986">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="365" id="3" weight="10.042932077173084">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="255" id="4" weight="11.33031328632326">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="200" id="5" weight="8.467173012904073">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="211" id="6" weight="8.313664267544613">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="740" id="7" weight="7.026535099681595">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="2" id="8" weight="5.39612985530964">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="140.0" id="9" weight="4.0638627309262">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="230.0" id="10" weight="5.090526480730121">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="710.0" id="11" weight="5.049917698338074">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="220" target="220" id="12" weight="2">
+        <attvalues>
+          <attvalue for="7" value="disputes" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="255" id="13" weight="10.269240391571211">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="211" id="14" weight="8.02654888787575">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="200" id="15" weight="13.136952228330617">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="230" id="16" weight="9.021271951388883">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="740" id="17" weight="7.00728680575826">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="365" id="18" weight="9.02239017543924">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="315" id="19" weight="3.027669864464587">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="2.0" id="20" weight="4.199133860186163">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="140.0" id="21" weight="4.023337776540402">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="290.0" id="22" weight="4.01990725447909">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="710.0" id="23" weight="5.344101403951182">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="325" target="325" id="24" weight="1">
+        <attvalues>
+          <attvalue for="7" value="disputes" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="365" id="25" weight="5.6809325144303555">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="2.0" id="26" weight="2.0722240916558805">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="140.0" id="27" weight="2.0071125130338743">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="200.0" id="28" weight="2.0615506401582944">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="211.0" id="29" weight="2.017427423267692">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="230.0" id="30" weight="2.003619213400164">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="255.0" id="31" weight="5.214065325041899">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="290.0" id="32" weight="3.041788938934302">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="710.0" id="33" weight="1.5036055551356227">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="315" target="740.0" id="34" weight="2.002269014198424">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="200" id="35" weight="6.7504004909852515">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="365" id="36" weight="8.678322043601888">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="255" id="37" weight="5.461374270807247">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="2.0" id="38" weight="2.7140559012562213">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="140.0" id="39" weight="2.0036869651451537">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="211.0" id="40" weight="2.018827267633593">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="230.0" id="41" weight="3.335009612109726">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="710.0" id="42" weight="2.001293491016135">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="290" target="740.0" id="43" weight="3.001237935965182">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="200" id="44" weight="8.165031223322917">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="710" id="45" weight="12.027380446198174">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="255" id="46" weight="9.152308026173241">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="2.0" id="47" weight="4.092877763844564">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="211.0" id="48" weight="2.0232717284411548">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="230.0" id="49" weight="4.00659009402626">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="740.0" id="50" weight="12.011021757474628">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="140" id="51" weight="3.0">
+        <attvalues>
+          <attvalue for="7" value="disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="365" target="365" id="52" weight="1">
+        <attvalues>
+          <attvalue for="7" value="disputes" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="211" id="53" weight="9.173678886105304">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="200" id="54" weight="9.458597470922953">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="740" id="55" weight="6.07357952208975">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="230" id="56" weight="7.090726336434212">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="2.0" id="57" weight="5.522944319942465">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="140.0" id="58" weight="3.1208105090168887">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="255" target="710.0" id="59" weight="4.111295304007537">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="200" target="211" id="60" weight="7.263951434382054">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="200" target="740" id="61" weight="8.107220207389823">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="200" target="2" id="62" weight="6.0">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="200" target="140.0" id="63" weight="3.0976854859231224">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="200" target="230.0" id="64" weight="4.0936345593746015">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="200" target="710.0" id="65" weight="4.437633681826758">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="211" target="2.0" id="66" weight="3.1296204733236035">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="211" target="140.0" id="67" weight="3.024742207690706">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="211" target="230.0" id="68" weight="4.016103717046089">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="211" target="710.0" id="69" weight="2.012793992630176">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="211" target="740.0" id="70" weight="4.0081316660719315">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="740" target="230" id="71" weight="5.000934299937347">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="740" target="2" id="72" weight="7.686786569564296">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="740" target="140.0" id="73" weight="4.008469701962443">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="740" target="710.0" id="74" weight="15.259269944253894">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="2" target="140" id="75" weight="4.224625522304405">
+        <attvalues>
+          <attvalue for="7" value="alliance,trade,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="2" target="230.0" id="76" weight="4.084116350386791">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="2" target="710.0" id="77" weight="4.525634924624575">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="230" target="140.0" id="78" weight="3.337089567780702">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="230" target="710.0" id="79" weight="4.000468062170163">
+        <attvalues>
+          <attvalue for="7" value="trade,disputes,diplomatic" />
+        </attvalues>
+      </edge>
+      <edge source="710" target="140.0" id="80" weight="2.000235065374211">
+        <attvalues>
+          <attvalue for="7" value="trade,diplomatic" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
