@@ -1,0 +1,16 @@
+ccode,abbrev,nome_pt,nome_en,pre_wwi,pre_wwii
+2,USA,Estados Unidos,United States,1,1
+140,BRA,Brasil,Brazil,0,1
+200,UKG,Reino Unido,United Kingdom,1,1
+211,BEL,Bélgica,Belgium,1,1
+220,FRN,França,France,1,1
+230,SPN,Espanha,Spain,1,1
+255,GMY,Alemanha,Germany,1,1
+290,POL,Polônia,Poland,0,1
+300,AUH,Áustria-Hungria,Austria-Hungary,1,0
+315,CZE,Tchecoslováquia,Czechoslovakia,0,1
+325,ITA,Itália,Italy,1,1
+365,RUS,Rússia / URSS,Russia / Soviet Union,1,1
+640,TUR,Império Otomano,Ottoman Empire,1,0
+710,CHN,China,China,1,1
+740,JPN,Japão,Japan,1,1

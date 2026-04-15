@@ -71,10 +71,22 @@ usp-bia-tcc/
 │   ├── visualization/               # Visualizações
 │   └── utils/                       # Constantes e helpers
 │
+├── apendices/                       # Apêndices A e B do TCC (ver §Apêndices)
 ├── reports/                         # Relatórios e entregas
 ├── gephi/                           # Arquivos Gephi
 └── tests/                           # Testes
 ```
+
+## Apêndices do TCC
+
+A versão final submetida do TCC **não inclui os apêndices** para cumprir o limite de 30 páginas. Os apêndices estão disponíveis nesta pasta para consulta da banca:
+
+| Apêndice | Conteúdo | Arquivo |
+|---|---|---|
+| **A** | Lista dos Estados analisados em cada janela temporal, com códigos COW | [`apendices/apendice_A_estados.md`](apendices/apendice_A_estados.md) |
+| **B** | 12 tabelas de centralidade por camada × período, métricas globais, evolução das centralidades em alianças, comunidades Louvain e teste de robustez CINC | [`apendices/apendice_B_centralidade.md`](apendices/apendice_B_centralidade.md) |
+
+Versões CSV machine-readable: [`apendices/apendice_A_estados.csv`](apendices/apendice_A_estados.csv) e [`apendices/apendice_B_centralidade.csv`](apendices/apendice_B_centralidade.csv). Detalhes em [`apendices/README.md`](apendices/README.md).
 
 ## Métricas de Rede
 
