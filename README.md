@@ -64,35 +64,35 @@ Este projeto aplica técnicas de Business Intelligence, Analytics e teoria dos g
 usp-bia-tcc/
 │
 ├── README.md                        # Este arquivo
-├── NOTAS.md                         # Log de desenvolvimento e decisões
 ├── .gitignore
 ├── requirements.txt                 # Dependências Python
+├── requirements.lock                # Versões fixas (reprodutibilidade)
 │
-├── gerar_figuras_tcc.py             # Gerador das figuras de publicação
+├── gerar_figuras_tcc.py             # Gerador das 8 figuras de publicação
 ├── gerar_dados_diplomacia.py        # Análise da rede de diplomacia
 │
-├── docs/                            # Documentação
-├── data/                            # Dados
-│   ├── raw/                         # Dados brutos (não versionados)
-│   ├── processed/                   # Dados processados
-│   └── output/                      # Resultados e exports
-│       ├── figuras_tcc/             # 7 figuras (PNG + código-fonte)
-│       ├── comparison/              # CSVs de centralidade comparativa
-│       ├── metricas_multilayer.csv  # Métricas globais (4 camadas × 2 períodos)
-│       └── metricas_centralidade_*.csv
+├── apendices/                       # Apêndices A e B do TCC (ver §Apêndices)
 │
-├── notebooks/                       # Jupyter notebooks exploratórios
-├── src/                             # Código fonte Python
+├── src/                             # Código-fonte Python
 │   ├── etl/                         # ETL (load_cow.py, transform.py)
 │   ├── network/                     # Construção e análise de redes
-│   ├── visualization/               # Visualizações
-│   └── utils/                       # Constantes e helpers
+│   ├── visualization/               # Visualizações e export Gephi
+│   └── utils/                       # Constantes e helpers (RANDOM_SEED=42)
 │
-├── apendices/                       # Apêndices A e B do TCC (ver §Apêndices)
+├── notebooks/                       # Jupyter notebooks exploratórios
+├── r_scripts/                       # Scripts auxiliares em R
+├── sql/                             # Queries SQL auxiliares
+├── tests/                           # Testes unitários
 ├── reports/                         # Relatórios e entregas
-├── gephi/                           # Arquivos Gephi
-└── tests/                           # Testes
+├── gephi/                           # Projetos Gephi (.gephi)
+│
+└── data/                            # ⚠️ Conteúdo NÃO versionado — regenerável pela pipeline
+    ├── raw/                         # Dados brutos COW/ATOP/Maddison (obter da fonte)
+    ├── processed/                   # Dados intermediários
+    └── output/                      # Figuras, GEXFs e CSVs gerados localmente
 ```
+
+> **Sobre `data/`:** este repositório é vitrine de código, não armazena os datasets brutos nem os artefatos de output (figuras PNG, GEXFs, CSVs intermediários). Para obter os dados originais, consulte as fontes em [§Fontes de Dados](#fontes-de-dados); para regenerar os outputs, rode a pipeline (ver [§Reprodutibilidade](#reprodutibilidade-e-stack-técnica)). As **métricas-chave do TCC** estão consolidadas em forma legível em [`apendices/`](apendices/).
 
 ## Métricas de Rede
 
@@ -118,7 +118,9 @@ usp-bia-tcc/
 | 7 | Jaccard inter-camadas (heatmap) | `figura_7_jaccard_multiplex/` |
 | 8 | Teste de robustez CINC | `figura_8_robustez_cinc/` |
 
-## Stack Técnica
+## Reprodutibilidade e Stack Técnica
+
+**Stack:**
 
 - `pandas`, `numpy` — manipulação de dados
 - `networkx` — modelagem e análise de grafos
@@ -126,6 +128,17 @@ usp-bia-tcc/
 - `matplotlib`, `seaborn` — visualizações
 - `python-docx` — geração do TCC em Word
 - `scipy` — convex hull para visualização de comunidades
+
+**Reprodutibilidade:**
+
+- Seed fixo (`RANDOM_SEED = 42`) em `src/utils/helpers.py`, propagado para Louvain e demais rotinas estocásticas.
+- Versões fixas em `requirements.lock`.
+- Para regenerar todos os artefatos do TCC localmente:
+
+```bash
+~/.virtualenvs/datascience/bin/python run_pipeline_comparison.py
+~/.virtualenvs/datascience/bin/python gerar_figuras_tcc.py
+```
 
 ## Cronograma
 
