@@ -3,6 +3,23 @@
 **TCC — MBA em Business Intelligence & Analytics**
 **Universidade de São Paulo (USP/ECA)**
 
+---
+
+## 📑 Apêndices do TCC (para a banca)
+
+> A versão final submetida do TCC **não inclui os apêndices** para cumprir o limite de 30 páginas. Eles estão disponíveis aqui:
+>
+> | Apêndice | Conteúdo | Link |
+> |---|---|---|
+> | **A** | Lista de Estados por período e código COW | 📄 [`apendices/apendice_A_estados.md`](apendices/apendice_A_estados.md) |
+> | **B** | 12 tabelas completas de centralidade (4 camadas × 2 períodos), métricas globais, evolução, comunidades Louvain e robustez CINC | 📄 [`apendices/apendice_B_centralidade.md`](apendices/apendice_B_centralidade.md) |
+>
+> 👉 **Pasta completa dos apêndices:** [`apendices/`](apendices/) — inclui versões CSV machine-readable e [README explicativo](apendices/README.md).
+>
+> Pipeline e dados brutos para reprodução em [`data/output/comparison/`](data/output/comparison/) e [`src/network/metrics.py`](src/network/metrics.py).
+
+---
+
 ## Visão Geral
 
 Este projeto aplica técnicas de Business Intelligence, Analytics e teoria dos grafos para modelar e comparar redes de **alianças, comércio, disputas e diplomacia entre Estados** nas janelas temporais que antecederam a Primeira e a Segunda Guerra Mundial, interpretando diferenças estruturais à luz do contexto histórico.
@@ -76,17 +93,6 @@ usp-bia-tcc/
 ├── gephi/                           # Arquivos Gephi
 └── tests/                           # Testes
 ```
-
-## Apêndices do TCC
-
-A versão final submetida do TCC **não inclui os apêndices** para cumprir o limite de 30 páginas. Os apêndices estão disponíveis nesta pasta para consulta da banca:
-
-| Apêndice | Conteúdo | Arquivo |
-|---|---|---|
-| **A** | Lista dos Estados analisados em cada janela temporal, com códigos COW | [`apendices/apendice_A_estados.md`](apendices/apendice_A_estados.md) |
-| **B** | 12 tabelas de centralidade por camada × período, métricas globais, evolução das centralidades em alianças, comunidades Louvain e teste de robustez CINC | [`apendices/apendice_B_centralidade.md`](apendices/apendice_B_centralidade.md) |
-
-Versões CSV machine-readable: [`apendices/apendice_A_estados.csv`](apendices/apendice_A_estados.csv) e [`apendices/apendice_B_centralidade.csv`](apendices/apendice_B_centralidade.csv). Detalhes em [`apendices/README.md`](apendices/README.md).
 
 ## Métricas de Rede
 
