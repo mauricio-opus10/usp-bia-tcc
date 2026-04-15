@@ -107,15 +107,16 @@ usp-bia-tcc/
 
 ## Figuras do TCC
 
-| Figura | Conteúdo | Seção |
-|--------|----------|-------|
-| 1 | Comparação das redes de alianças | §4.3 |
-| 2 | Comunidades Louvain | §4.3 |
-| 3 | Ranking de densidade por camada | §4.4 |
-| 4 | Comparação visual das 4 redes | §4.5 |
-| 5 | Slope chart — brokers de disputas | §4.6 |
-| 6 | Heatmap de betweenness (4 camadas) | §4.7 |
-| 7 | Teste de robustez CINC | §4.9 |
+| Figura | Conteúdo | Diretório |
+|--------|----------|-----------|
+| 1 | Comparação das redes de alianças | `figura_1_aliancas_comparacao/` |
+| 2 | Comunidades Louvain | `figura_2_comunidades_louvain/` |
+| 3 | Ranking de densidade por camada | `figura_3_ranking_densidade/` |
+| 4 | Comparação visual das 4 redes | `figura_4_comparacao_4_redes/` |
+| 5 | Slope chart — brokers de disputas | `figura_5_brokers_slope_disputas/` |
+| 6 | Heatmap de betweenness (4 camadas) | `figura_6_heatmap_betweenness/` |
+| 7 | Jaccard inter-camadas (heatmap) | `figura_7_jaccard_multiplex/` |
+| 8 | Teste de robustez CINC | `figura_8_robustez_cinc/` |
 
 ## Stack Técnica
 
